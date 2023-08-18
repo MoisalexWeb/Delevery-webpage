@@ -31,4 +31,4 @@ This is a Responsive Delivery Landing Page
 - Frontend Mentor - [@MoisalexWeb](https://www.frontendmentor.io/profile/MoisalexWeb)
 - Instagram - [@moisalexweb_sw](https://www.instagram.com/moisalexweb_sw/)
 
-![Responsive Delivery Landing Page](/preview.png)
+![Responsive Delivery Landing Page](./preview.png)
