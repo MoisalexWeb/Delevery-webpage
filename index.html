@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Delivery Website</title>
+	<link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+	
+	<header class="header" id="home" data-section>
+		<nav class="nav">
+			<div class="nav__container">
+				<a href="#home" class="nav-logo">Delivery</a>
+
+				<button class="nav__hamburger" aria-label="Menu button">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 18V20H6V18H18ZM21 11V13H3V11H21ZM18 4V6H6V4H18Z"></path></svg>
+				</button>
+
+				<div class="nav__menu">
+					<ul class="nav__menu__ul">
+						<li>
+							<a href="#home" class="nav__menu__ul-link">Home</a>
+						</li>
+						<li>
+							<a href="#about" class="nav__menu__ul-link">About us</a>
+						</li>
+						<li>
+							<a href="#services" class="nav__menu__ul-link">Services</a>
+						</li>
+						<li>
+							<a href="#contact" class="nav__menu__ul-link">Contact us</a>
+						</li>
+					</ul>
+
+					<button class="nav__menu__theme" aria-label="Dark and Light theme">
+						<span class="nav__menu__theme-bullet"></span>
+					</button>
+					<a href="#" class="nav__menu-cta">Order now!</a>
+				</div>
+
+				<a href="#" class="nav-cta">order now!</a>
+			</div>
+		</nav>
+
+		<div class="header__hero">
+			<figure class="header__hero__image">
+				<img src="./img/home-ilustration.svg" alt="Delivery" class="header__hero__image-img">
+			</figure>
+
+			<div class="header__hero__texts">
+				<h1 class="header__hero__texts-title">Order Products<br>Faster Easier</h1>
+				<p class="header__hero__texts-paragraph">Order your favorite foods at any time and we will deliver them right to where you are.</p>
+				<a href="#services" class="header__hero__texts-cta">Get Started</a>
+			</div>
+		</div>
+	</header>
+
+	<main>
+		<section class="about container" id="about" data-section>
+			<div class="about__section">
+				<figure class="about__section__figure">
+					<img src="./img/about-ilustration.svg" alt="Product at your home" class="about__section__figure-img">
+				</figure>
+
+				<div class="about__section__texts about__section__texts--first">
+					<h2 class="section-title">Find Out A Little More<br>About Us</h2>
+					<p class="about__section__texts-description">We are a company dedicated to the distribution of products by delivery to your home or to the place where you are, with the best quality of delivery.</p>
+				</div>
+			</div>
+
+			<div class="about__section about__section--second">
+				<figure class="about__section__figure">
+					<img src="./img/security-ilustration.svg" alt="Delivery security" class="about__section__figure-img">
+				</figure>
+
+				<div class="about__section__texts">
+					<h2 class="section-title">Your Safety Is<br>Important</h2>
+					<p class="about__section__texts-description">When your order reaches you, we have the health safety protocols, so that you are protected from any disease. Watch the video of how the delivery is made.</p>
+				</div>
+			</div>
+		</section>
+
+		<section class="services container" id="services" data-section>
+			<h2 class="section-title">Some Services We <br>Offer</h2>
+
+			<div class="services__grid">
+				<div class="services__grid__item">
+					<h3 class="services__grid__item-title">Payment Done</h3>
+
+					<figure class="services__grid__item__img">
+						<img src="./img/services1-ilustration.svg" alt="Payment" class="services__grid__item__img-img">
+					</figure>
+					<p class="services__grid__item-description">Pay with a Visa or PayPal card and without much ado.</p>
+					<a href="#" class="services__grid__item-cta">Learn more</a>
+				</div>
+
+				<div class="services__grid__item">
+					<h3 class="services__grid__item-title">Find Your Product</h3>
+
+					<figure class="services__grid__item__img">
+						<img src="./img/services2-ilustration.svg" alt="Find your products" class="services__grid__item__img-img">
+					</figure>
+					<p class="services__grid__item-description">We offer sale of products through the Internet.</p>
+					<a href="#" class="services__grid__item-cta">Learn more</a>
+				</div>
+
+				<div class="services__grid__item">
+					<h3 class="services__grid__item-title">Product Received</h3>
+					<figure class="services__grid__item__img">
+						<img src="./img/services3-ilustration.svg" alt="Product received" class="services__grid__item__img-img">
+
+					</figure>
+					<p class="services__grid__item-description">In our app you can see the delay time of your order.</p>
+					<a href="#" class="services__grid__item-cta">Learn more</a>
+				</div>
+			</div>
+		</section>
+
+		<section class="app container">
+			<div class="app__texts">
+				<h2 class="section-title">Watch Your Delivery <br>At Any Time</h2>
+				<p class="app__texts-paragraph">With our app you can view the route of your order, from our local headquarters to the place where you are. Look for the app now!</p>
+
+				<div class="app__texts__buttons">
+					<a href="#" class="app__texts__buttons-cta">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11.6734 7.2221C10.7974 7.2221 9.44138 6.2261 8.01338 6.2621C6.12938 6.2861 4.40138 7.3541 3.42938 9.0461C1.47338 12.4421 2.92538 17.4581 4.83338 20.2181C5.76938 21.5621 6.87338 23.0741 8.33738 23.0261C9.74138 22.9661 10.2694 22.1141 11.9734 22.1141C13.6654 22.1141 14.1454 23.0261 15.6334 22.9901C17.1454 22.9661 18.1054 21.6221 19.0294 20.2661C20.0974 18.7061 20.5414 17.1941 20.5654 17.1101C20.5294 17.0981 17.6254 15.9821 17.5894 12.6221C17.5654 9.8141 19.8814 8.4701 19.9894 8.4101C18.6694 6.4781 16.6414 6.2621 15.9334 6.2141C14.0854 6.0701 12.5374 7.2221 11.6734 7.2221ZM14.7934 4.3901C15.5734 3.4541 16.0894 2.1461 15.9454 0.850098C14.8294 0.898098 13.4854 1.5941 12.6814 2.5301C11.9614 3.3581 11.3374 4.6901 11.5054 5.9621C12.7414 6.0581 14.0134 5.3261 14.7934 4.3901Z"></path></svg>
+						app store
+					</a>
+
+					<a href="#" class="app__texts__buttons-cta">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3.60972 1.81396L13.793 12L3.61082 22.1864C3.41776 22.1048 3.24866 21.962 3.13555 21.7667C3.0474 21.6144 3.00098 21.4416 3.00098 21.2656V2.73453C3.00098 2.32109 3.25188 1.96625 3.60972 1.81396ZM14.5 12.707L16.802 15.009L5.86498 21.342L14.5 12.707ZM17.699 9.50896L20.5061 11.1347C20.9841 11.4114 21.1473 12.0232 20.8705 12.5011C20.783 12.6523 20.6574 12.778 20.5061 12.8655L17.698 14.491L15.207 12L17.699 9.50896ZM5.86498 2.65796L16.803 8.98996L14.5 11.293L5.86498 2.65796Z"></path></svg>
+						google play
+					</a>
+				</div>
+			</div>
+
+			<figure class="app__figure">
+				<img src="./img/app-ilustration.svg" alt="Get the app" class="app__figure-img">
+			</figure>
+		</section>
+
+		<section class="contact container" id="contact" data-section>
+			<div class="contact__item contact__item--first">
+				<h2 class="section-title">Contact Us From<br>Here</h2>
+				<p class="contact__item-paragraph">You can contact us from here, you can write to us, call us or visit our service center, we will gladly assist you.</p>
+			</div>
+
+			<ul class="contact__grid">
+				<li><span class="contact__grid-span">Telephone:</span> 999 - 888 - 777</li>
+				<li><span class="contact__grid-span">Email:</span> delivery@email.com</li>
+				<li><span class="contact__grid-span">Location:</span> El Tigre - Venezuela</li>
+			</ul>
+
+			<div class="contact__button">
+				<a href="#" class="contact__button-cta">contact us</a>
+			</div>
+		</section>
+	</main>
+
+	<footer class="footer">
+		<div class="container footer__container">
+			<div class="footer__item">
+				<h3 class="footer__item-title">delivery</h3>
+				<a href="#" class="footer__item-paragraph">order products faster <br>Eeasier</a>
+			</div>
+
+			<div class="footer__item">
+				<h3 class="footer__item-title">our services</h3>
+				<ul class="footer__item__ul">
+					<li>
+						<a href="#" class="footer__item__ul-link">Pricing</a>
+					</li>
+					<li>
+						<a href="#" class="footer__item__ul-link">Discount</a>
+					</li>
+					<li>
+						<a href="#" class="footer__item__ul-link">Report a bug</a>
+					</li>
+					<li>
+						<a href="#" class="footer__item__ul-link">Terms of service</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="footer__item">
+				<h3 class="footer__item-title">our company</h3>
+				<ul class="footer__item__ul">
+					<li>
+						<a href="#" class="footer__item__ul-link">Blog</a>
+					</li>
+					<li>
+						<a href="#" class="footer__item__ul-link">Our mision</a>
+					</li>
+					<li>
+						<a href="#" class="footer__item__ul-link">Get in touch</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="footer__item">
+				<h3 class="footer__item-title">comunity</h3>
+				<ul class="footer__item__ul">
+					<li>
+						<a href="#" class="footer__item__ul-link">Support</a>
+					</li>
+					<li>
+						<a href="#" class="footer__item__ul-link">Question</a>
+					</li>
+					<li>
+						<a href="#" class="footer__item__ul-link">Customer help</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="footer__social">
+				<a href="#" class="footer__social__link" aria-label="Go to delivery's Facebook">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12.001 2C6.47813 2 2.00098 6.47715 2.00098 12C2.00098 16.9913 5.65783 21.1283 10.4385 21.8785V14.8906H7.89941V12H10.4385V9.79688C10.4385 7.29063 11.9314 5.90625 14.2156 5.90625C15.3097 5.90625 16.4541 6.10156 16.4541 6.10156V8.5625H15.1931C13.9509 8.5625 13.5635 9.33334 13.5635 10.1242V12H16.3369L15.8936 14.8906H13.5635V21.8785C18.3441 21.1283 22.001 16.9913 22.001 12C22.001 6.47715 17.5238 2 12.001 2Z"></path></svg>
+				</a>
+
+				<a href="#" class="footer__social__link" aria-label="Go to delivery's Twitter">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M22.2125 5.65605C21.4491 5.99375 20.6395 6.21555 19.8106 6.31411C20.6839 5.79132 21.3374 4.9689 21.6493 4.00005C20.8287 4.48761 19.9305 4.83077 18.9938 5.01461C18.2031 4.17106 17.098 3.69303 15.9418 3.69434C13.6326 3.69434 11.7597 5.56661 11.7597 7.87683C11.7597 8.20458 11.7973 8.52242 11.8676 8.82909C8.39047 8.65404 5.31007 6.99005 3.24678 4.45941C2.87529 5.09767 2.68005 5.82318 2.68104 6.56167C2.68104 8.01259 3.4196 9.29324 4.54149 10.043C3.87737 10.022 3.22788 9.84264 2.64718 9.51973C2.64654 9.5373 2.64654 9.55487 2.64654 9.57148C2.64654 11.5984 4.08819 13.2892 6.00199 13.6731C5.6428 13.7703 5.27232 13.8194 4.90022 13.8191C4.62997 13.8191 4.36771 13.7942 4.11279 13.7453C4.64531 15.4065 6.18886 16.6159 8.0196 16.6491C6.53813 17.8118 4.70869 18.4426 2.82543 18.4399C2.49212 18.4402 2.15909 18.4205 1.82812 18.3811C3.74004 19.6102 5.96552 20.2625 8.23842 20.2601C15.9316 20.2601 20.138 13.8875 20.138 8.36111C20.138 8.1803 20.1336 7.99886 20.1256 7.81997C20.9443 7.22845 21.651 6.49567 22.2125 5.65605Z"></path></svg>
+				</a>
+
+				<a href="#" class="footer__social__link" aria-label="Go to delivery's Instagram">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.0281 2.00098C14.1535 2.00284 14.7238 2.00879 15.2166 2.02346L15.4107 2.02981C15.6349 2.03778 15.8561 2.04778 16.1228 2.06028C17.1869 2.10944 17.9128 2.27778 18.5503 2.52528C19.2094 2.77944 19.7661 3.12278 20.3219 3.67861C20.8769 4.23444 21.2203 4.79278 21.4753 5.45028C21.7219 6.08694 21.8903 6.81361 21.9403 7.87778C21.9522 8.14444 21.9618 8.36564 21.9697 8.58989L21.976 8.78397C21.9906 9.27672 21.9973 9.8471 21.9994 10.9725L22.0002 11.7182C22.0003 11.8093 22.0003 11.9033 22.0003 12.0003L22.0002 12.2824L21.9996 13.0281C21.9977 14.1535 21.9918 14.7238 21.9771 15.2166L21.9707 15.4107C21.9628 15.6349 21.9528 15.8561 21.9403 16.1228C21.8911 17.1869 21.7219 17.9128 21.4753 18.5503C21.2211 19.2094 20.8769 19.7661 20.3219 20.3219C19.7661 20.8769 19.2069 21.2203 18.5503 21.4753C17.9128 21.7219 17.1869 21.8903 16.1228 21.9403C15.8561 21.9522 15.6349 21.9618 15.4107 21.9697L15.2166 21.976C14.7238 21.9906 14.1535 21.9973 13.0281 21.9994L12.2824 22.0002C12.1913 22.0003 12.0973 22.0003 12.0003 22.0003L11.7182 22.0002L10.9725 21.9996C9.8471 21.9977 9.27672 21.9918 8.78397 21.9771L8.58989 21.9707C8.36564 21.9628 8.14444 21.9528 7.87778 21.9403C6.81361 21.8911 6.08861 21.7219 5.45028 21.4753C4.79194 21.2211 4.23444 20.8769 3.67861 20.3219C3.12278 19.7661 2.78028 19.2069 2.52528 18.5503C2.27778 17.9128 2.11028 17.1869 2.06028 16.1228C2.0484 15.8561 2.03871 15.6349 2.03086 15.4107L2.02457 15.2166C2.00994 14.7238 2.00327 14.1535 2.00111 13.0281L2.00098 10.9725C2.00284 9.8471 2.00879 9.27672 2.02346 8.78397L2.02981 8.58989C2.03778 8.36564 2.04778 8.14444 2.06028 7.87778C2.10944 6.81278 2.27778 6.08778 2.52528 5.45028C2.77944 4.79194 3.12278 4.23444 3.67861 3.67861C4.23444 3.12278 4.79278 2.78028 5.45028 2.52528C6.08778 2.27778 6.81278 2.11028 7.87778 2.06028C8.14444 2.0484 8.36564 2.03871 8.58989 2.03086L8.78397 2.02457C9.27672 2.00994 9.8471 2.00327 10.9725 2.00111L13.0281 2.00098ZM12.0003 7.00028C9.23738 7.00028 7.00028 9.23981 7.00028 12.0003C7.00028 14.7632 9.23981 17.0003 12.0003 17.0003C14.7632 17.0003 17.0003 14.7607 17.0003 12.0003C17.0003 9.23738 14.7607 7.00028 12.0003 7.00028ZM12.0003 9.00028C13.6572 9.00028 15.0003 10.3429 15.0003 12.0003C15.0003 13.6572 13.6576 15.0003 12.0003 15.0003C10.3434 15.0003 9.00028 13.6576 9.00028 12.0003C9.00028 10.3434 10.3429 9.00028 12.0003 9.00028ZM17.2503 5.50028C16.561 5.50028 16.0003 6.06018 16.0003 6.74943C16.0003 7.43867 16.5602 7.99944 17.2503 7.99944C17.9395 7.99944 18.5003 7.43954 18.5003 6.74943C18.5003 6.06018 17.9386 5.49941 17.2503 5.50028Z"></path></svg>
+				</a>
+			</div>
+		</div>
+	</footer>
+
+	<button class="scroll__button" aria-label="Scroll button">
+		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+			<g>
+				<path fill="none" d="M0 0h24v24H0z"></path>
+				<path d="M13 7.828V20h-2V7.828l-5.364 5.364-1.414-1.414L12 4l7.778 7.778-1.414 1.414L13 7.828z"></path>
+			</g>
+		</svg>
+	</button>
+
+	<script src="js/main.js"></script>
+</body>
+</html>

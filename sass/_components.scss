@@ -1,0 +1,30 @@
+@mixin transition($prop: all, $time: 0.2s) {
+	transition: $prop $time ease;
+}
+
+@mixin button($bg, $color, $weight) {
+	display: inline-block;
+	padding: 15px 30px;
+	border-radius: 25px;
+	background-color: $bg;
+	color: $color;
+	font-weight: $weight;
+}
+
+@keyframes bounce {
+	0% {
+        transform: translateY(0);
+    }
+    20% {
+        transform: translateY(-6px);
+    }
+    40% {
+        transform: translateY(0);
+    }
+    60% {
+        transform: translateY(-3px);
+    }
+    80% {
+        transform: translateY(0px);
+    }
+}
